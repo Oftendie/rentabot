@@ -66,7 +66,7 @@ async def restart_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await start(update, context)
 
 if __name__ == '__main__':
-    TOKEN = "8133544064:AAH-N8DDF9D13QZUi9Y_STrRm9eHPsG2RZw"
+    TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
